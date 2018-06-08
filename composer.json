@@ -1,0 +1,25 @@
+{
+    "name": "game/firedg",
+    "description": "firedg php package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "3004927832",
+            "email": "3004927832@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+            "psr-4": {
+	    	    "GameCenter\\": "src/" 
+		    	}
+			    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
